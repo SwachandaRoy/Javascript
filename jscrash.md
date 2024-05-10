@@ -37,9 +37,47 @@ arr.pop()   pops last element
 #### shift and unshift:
   arr=[1,2,3]<br>
   arr.shift()<br>
-  -> [2,3]<br>
+  returns first time: 1
+  -> (arr:) [2,3]<br>
   arr.unshift()<br>
   -> [1, 2, 3]<br>
+
+### Functions
+if you do not use var keyword in a function, then it becomes global automatically, else it is scoped to tht function only
+typeof myvar  -> returns type (number, boolean, object, function)
+
+### JSON
+JSON is a format for storing and exchanging data in a readable and lightweight manner.
+ (lightweight - minimalistic syntax, efficient)
+JavaScript Object Notation (JSON)
+JSON strings consist of key-value pairs, where keys are strings and values can be any type
+often used for sending data between client and server
+
+JSON.stringify(myarr) - converts to string representation
+eg: JSON-formatted string
+
+### Equality
+!== strict inequality (no type conversion)
+&& - and
+|| - or
+
+### if else
+else if
+
+### switch
+switch(val){
+  case 1:  <br>
+    ans='alpha';  <br>
+    break; <br>
+  case 2: <br>
+    ans='beta';  <br>
+    break; <br>
+  default:
+    ans='gamma'; <br>
+    break; <br>
+} <br>
+return ans
+
 
 
 
