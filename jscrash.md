@@ -57,7 +57,7 @@ JSON.stringify(myarr) - converts to string representation
 eg: JSON-formatted string
 
 ### Equality
-!== strict inequality (no type conversion)
+=== strict inequality (no type conversion)
 && - and
 || - or
 
@@ -78,9 +78,19 @@ switch(val){
 } <br>
 return ans
 
+### some functions
+alert("abc")
+prompt()
+parseInt(prompt()
 
+### Case
+vname.toUpperCase()
 
+### Array
+arr.includes(ele)   checks if ele is present in array
 
+### Adding js to website html
+inside body: <script src="script.js" charset="utf-8"></script>
 
 
 
